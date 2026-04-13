@@ -1,0 +1,53 @@
+/* 侧边栏美化 */
+.VPSidebar {
+  border-radius: 0 12px 12px 0 !important;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1) !important;
+  padding: 20px 10px !important;
+}
+/* 侧边栏菜单项悬浮效果 */
+.VPSidebar .item {
+  border-radius: 8px !important;
+  margin: 4px 0 !important;
+  transition: all 0.3s ease !important;
+}
+.VPSidebar .item:hover {
+  background: var(--vp-c-brand-soft) !important;
+  transform: translateX(4px) !important;
+}
+/* 高亮当前菜单 */
+.VPSidebar .item.active {
+  background: var(--vp-c-brand-1) !important;
+  color: white !important;
+}
+
+.VPHero .name {
+  font-size:3.2rem!important;
+  font-weight:800!important;
+}
+.VPHero .text {
+  font-size:1.6rem!important;
+  font-weight:600!important;
+  color:var(--vp-c-brand-1)!important;
+}
+.VPHero .tagline {
+  font-size:1.15rem!important;
+  max-width:900px!important;
+}
+.VPHero .image {
+  border-radius:50%!important;
+  border:3px solid var(--vp-c-brand-1)!important;
+  box-shadow:0 0 30px rgba(59,130,246,0.25)!important;
+  animation:float 3s infinite ease-in-out;
+}
+@keyframes float {
+  0%,100%{transform:translateY(0);}50%{transform:translateY(-10px);}
+}
+.VPFeature {
+  border-radius:16px!important;
+  transition:all 0.3s ease!important;
+}
+.VPFeature:hover {
+  transform:translateY(-6px)!important;
+  box-shadow:0 10px 25px rgba(59,130,246,0.12)!important;
+  border-color:var(--vp-c-brand-1)!important;
+}
