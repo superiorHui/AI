@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r,ae as l}from"./chunks/framework.D_KAhcqz.js";const f=JSON.parse('{"title":"我的文章","description":"","frontmatter":{},"headers":[],"relativePath":"articles.md","filePath":"articles.md"}'),i={name:"articles.md"};function o(_,a,n,s,c,d){return t(),r("div",null,[...a[0]||(a[0]=[l("",3)])])}const h=e(i,[["render",o]]);export{f as __pageData,h as default};
