@@ -57,7 +57,7 @@ AI-FullStack-Course 是一套 **企业级实战导向** 的 AI 全栈技术教�
 ## 🚀 快速开始
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/superiorHui/AI-FullStack-Course.git
+git clone https://github.com/superiorHui/AI.git
 cd AI-FullStack-Course
 ```
 
