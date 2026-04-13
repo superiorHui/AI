@@ -129,7 +129,7 @@ features:
 ## 立即开启你的技术成长之旅
 
 <div style="text-align: center; margin: 60px 0;">
-  <a href="/articles" style="display: inline-block; background: var(--vp-c-brand-1); color: white; padding: 12px 32px; border-radius: 8px; font-size: 16px; font-weight: 600; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <a href="/course" style="display: inline-block; background: var(--vp-c-brand-1); color: white; padding: 12px 32px; border-radius: 8px; font-size: 16px; font-weight: 600; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     查看核心课程体系 →
   </a>
   <p style="color:var(--vp-c-text-2); margin-top: 16px; font-size: 14px;">或联系我获取个性化学习方案：<a href="mailto:zhongchaohui888@gmail.com" style="color: var(--vp-c-brand-1);">zhongchaohui888@gmail.com</a></p>
