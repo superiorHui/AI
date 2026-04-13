@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: "/AI/",
+  // base: "/AI/",
   // 网站标题
   title: '钟老师AI学习网站',
   // 网站描述
