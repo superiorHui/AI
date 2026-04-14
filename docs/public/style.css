@@ -34,29 +34,34 @@
   max-width:900px!important;
 }
 
-/* ✅ 最终完美版：正圆填充 + 完整显示 + 垂直居中对齐 */
+/* ✅ 终极修复：容器上移+完整显示，无截断 */
 .VPHero .image {
   border-radius: 0 !important;
   border: none !important;
   box-shadow: none !important;
   animation: none !important;
-  width: 280px !important;  /* 容器大小，匹配截图视觉比例 */
+  width: 280px !important;
   height: 280px !important;
-  align-self: center !important;  /* 核心：和左侧文字垂直居中 */
-  margin-top: 50px !important;        /* 取消上移，完美对齐 */
-  overflow: hidden !important;     /* 容器裁切，保证圆形 */
+  align-self: center !important;
+  margin-top: -10px !important; /* 关键：上移一点，让圆形顶部完全露出 */
+  overflow: hidden !important;
+  position: relative !important; /* 关键：防止被父元素遮挡 */
+  z-index: 10 !important; /* 关键：提升层级，保证显示在最上层 */
 }
 
-/* 核心：图片正圆填充，完整显示，无变形 */
+/* 核心：图片正圆填充，完整显示 */
 .VPHero .image img {
   border-radius: 50% !important;
   border: 3px solid var(--vp-c-brand-1) !important;
   box-shadow: 0 0 25px rgba(59,130,246,0.3) !important;
   width: 100% !important;
   height: 100% !important;
-  object-fit: cover !important;    /* 核心：填充整个圆形，无空白 */
-  object-position: center !important; /* 核心：居中显示，不裁切人脸 */
+  object-fit: cover !important;
+  object-position: center !important;
   animation: none !important;
+  position: absolute !important; /* 关键：绝对定位，完全填充容器 */
+  top: 0 !important;
+  left: 0 !important;
 }
 
 .VPFeature {
