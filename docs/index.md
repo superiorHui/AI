@@ -21,7 +21,6 @@ hero:
     # - theme: alt
     #   text: 关于我
     #   link: /about
-
 features:
   - icon: 🧠
     title: 前沿技术栈全覆盖
@@ -41,9 +40,7 @@ features:
   - icon: ✨
     title: 实战驱动教学
     details: 拒绝纯理论，每个知识点配套可运行项目（含 RAG 企业级架构、LangGraph 工作流实战）
-
 ---
-
 ## 核心技术能力矩阵
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 60px; margin-bottom: 60px;">
