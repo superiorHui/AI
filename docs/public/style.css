@@ -73,3 +73,8 @@
   box-shadow:0 10px 25px rgba(59,130,246,0.12)!important;
   border-color:var(--vp-c-brand-1)!important;
 }
+
+/* 🔥 核心：整体上移卡片区域，消除空白 */
+.VPHomeFeatures {
+  margin-top: -120px !important;
+}
