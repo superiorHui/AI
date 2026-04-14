@@ -5,7 +5,6 @@ export default defineConfig({
   // 关键配置：生产环境使用 /AI/ 作为基础路径，本地为空
   //base: isProduction ? '/AI/' : '/',
   //base: '/AI/',
-  base: '/',
 
   // 网站标题
   title: '钟老师 | AI大模型应用开发教学',
@@ -35,13 +34,7 @@ export default defineConfig({
     ],
 
 	// 侧边栏（可选）
- sidebar: [
-  { text: "🏠 首页", link: "/" },
-  // {
-  //   text: "👤 个人中心",
-  //   collapsed: false,
-  //   items: [{ text: "关于我", link: "/about" }]
-  // },
+sidebar: [
   {
     text: "📘 AI课程体系",
     collapsed: false,
@@ -53,25 +46,30 @@ export default defineConfig({
       { text: "LangChain全栈", link: "/articles/langchain" }
     ]
   },
-{
-  text: "💼 企业级项目",
-  collapsed: true,
-  items: [
-    { text: "项目总览", link: "/projects" },
-    { text: "AI智能问答系统", link: "/projects/ai-qa" },
-    { text: "自动化办公Agent", link: "/projects/auto-agent" },
-    { text: "微服务电商平台", link: "/projects/microservice" },
-    { text: "企业级数据分析平台", link: "/projects/data-analysis" }
-  ]
-},
+  {
+    text: "💼 企业级项目",
+    collapsed: true,
+    items: [
+      { text: "项目总览", link: "/projects" },
+      { text: "AI智能问答系统", link: "/projects/ai-qa" },
+      { text: "自动化办公Agent", link: "/projects/auto-agent" },
+      { text: "微服务电商平台", link: "/projects/microservice" },
+      { text: "企业级数据分析平台", link: "/projects/data-analysis" }
+    ]
+  },
   {
     text: "📝 技术博客",
     collapsed: true,
-    items: [
+   items: [
       { text: "博客首页", link: "/blog" },
       { text: "RAG 核心技术与优化", link: "/blog/rag-optimize" },
       { text: "AI Agent 执行流程详解", link: "/blog/agent-flow" },
+      { text: "AI Agent 架构设计与最佳实践", link: "/blog/agent-architecture" },
+      { text: "多智能体系统设计与协作机制", link: "/blog/multi-agent-system" },
       { text: "LangGraph 工作流实战", link: "/blog/langgraph" },
+      { text: "OpenClaw 架构设计与核心组件分析", link: "/blog/openclaw-architecture" },
+      { text: "OpenClaw 插件系统与技能扩展", link: "/blog/openclaw-plugins" },
+      { text: "OpenClaw 企业级部署与性能优化", link: "/blog/openclaw-deployment" },
       { text: "大模型应用落地避坑指南", link: "/blog/llm-pitfalls" }
     ]
   }
@@ -90,7 +88,7 @@ export default defineConfig({
         <h4 style="margin: 0 0 8px 0; color: #3b82f6;">微信咨询</h4>
         <p style="margin: 0; font-size: 14px;">扫描二维码添加好友</p>
        
-        <img src="/wechat.png" alt="微信二维码" style="width: 100px; margin-top: 8px; border-radius: 8px;">
+        <img src="/AI/wechat.png" alt="微信二维码" style="width: 100px; margin-top: 8px; border-radius: 8px;">
       </div>
       <div style="text-align: center;">
         <h4 style="margin: 0 0 8px 0; color: #3b82f6;">联系方式</h4>
