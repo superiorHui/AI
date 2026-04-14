@@ -33,16 +33,29 @@
   font-size:1.15rem!important;
   max-width:900px!important;
 }
+
+/* ✅ 最终修复版：完美圆形 + 垂直居中对齐 + 无变形 */
 .VPHero .image {
-  border-radius: 50% !important;        /* 核心：圆形遮罩 */
-  border: 3px solid var(--vp-c-brand-1) !important; /* 品牌色边框（可选，不想要就删） */
-  box-shadow: 0 0 20px rgba(59,130,246,0.25) !important; /* 阴影（可选，不想要就删） */
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
   animation: none !important;
   width: 180px !important;
   height: 180px !important;
-  object-fit: cover !important;          /* 防止图片变形 */
-  align-self: center !important;         /* 垂直居中，和文字对齐 */
-  margin-top: 20px !important;           /* 微调下移，完美匹配 */
+  align-self: center !important;
+  margin-top: 20px !important;
+  overflow: hidden !important;
+}
+
+/* 核心：给图片本身加圆形遮罩，完美裁切 */
+.VPHero .image img {
+  border-radius: 50% !important;
+  border: 3px solid var(--vp-c-brand-1) !important;
+  box-shadow: 0 0 20px rgba(59,130,246,0.25) !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  animation: none !important;
 }
 
 .VPFeature {
