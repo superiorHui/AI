@@ -34,7 +34,7 @@
   max-width:900px!important;
 }
 
-/* ✅ 终极修复：完整正圆、无遮挡、完美对齐 */
+/* ✅ 只调整位置：右下偏移，和文字居中对齐 */
 .VPHero .image {
   border-radius: 0 !important;
   border: none !important;
@@ -43,13 +43,13 @@
   width: 260px !important;
   height: 260px !important;
   align-self: center !important;
-  margin-top: 0 !important; /* 重置位置，和文字垂直居中 */
-  overflow: visible !important; /* 禁止容器裁切，保证完整显示 */
-  position: static !important; /* 重置定位，避免错位 */
+  margin-top: 140px !important;    /* 往下 */
+  margin-left: 280px !important;   /* 往右 */
+  overflow: visible !important;
+  position: static !important;
   z-index: auto !important;
 }
 
-/* 核心：图片正圆填充，完整居中，无变形 */
 .VPHero .image img {
   border-radius: 50% !important;
   border: 3px solid var(--vp-c-brand-1) !important;
@@ -59,7 +59,7 @@
   object-fit: cover !important;
   object-position: center !important;
   animation: none !important;
-  position: static !important; /* 重置定位，避免偏移 */
+  position: static !important;
   top: auto !important;
   left: auto !important;
 }
