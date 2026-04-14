@@ -22,7 +22,7 @@ title: 技术博客 | AI前沿与实战干货
   </div>
   <h4 style="color:var(--vp-c-brand-1); margin:0 0 12px 0; font-size:18px;">RAG 核心技术与优化策略</h4>
   <p style="color:var(--vp-c-text-1); line-height:1.6; margin:0 0 16px; font-size:14px;">详解 RAG 全流程、向量检索、Chunk 拆分策略、混合检索、RAG 调优方案，附实战代码。</p>
-  <a href="/blog/rag-optimize" style="color:var(--vp-c-brand-1); text-decoration:none; font-weight:600;">阅读全文 →</a>
+  <a href="/AI/blog/rag-optimize" style="color:var(--vp-c-brand-1); text-decoration:none; font-weight:600;">阅读全文 →</a>
 </div>
 
 <!-- 博客2 -->
@@ -33,7 +33,7 @@ title: 技术博客 | AI前沿与实战干货
   </div>
   <h4 style="color:var(--vp-c-brand-1); margin:0 0 12px 0; font-size:18px;">AI Agent 执行流程与工具调用详解</h4>
   <p style="color:var(--vp-c-text-1); line-height:1.6; margin:0 0 16px; font-size:14px;">从 ReAct 架构到多 Agent 协作，手把手教你如何实现一个能自主思考、执行任务的 Agent。</p>
-  <a href="/blog/agent-flow" style="color:var(--vp-c-brand-1); text-decoration:none; font-weight:600;">阅读全文 →</a>
+  <a href="/AI/blog/agent-flow" style="color:var(--vp-c-brand-1); text-decoration:none; font-weight:600;">阅读全文 →</a>
 </div>
 
 <!-- 博客3 -->
@@ -44,7 +44,7 @@ title: 技术博客 | AI前沿与实战干货
   </div>
   <h4 style="color:var(--vp-c-brand-1); margin:0 0 12px 0; font-size:18px;">LangGraph 工作流实战开发</h4>
   <p style="color:var(--vp-c-text-1); line-height:1.6; margin:0 0 16px; font-size:14px;">生产级 AI 应用都使用工作流架构。本文教你如何构建状态化、可重试、可扩展的 AI 工作流。</p>
-  <a href="/blog/langgraph" style="color:var(--vp-c-brand-1); text-decoration:none; font-weight:600;">阅读全文 →</a>
+  <a href="/AI/blog/langgraph" style="color:var(--vp-c-brand-1); text-decoration:none; font-weight:600;">阅读全文 →</a>
 </div>
 
 <!-- 博客4 -->
@@ -54,8 +54,8 @@ title: 技术博客 | AI前沿与实战干货
     <span style="font-size:12px; color:var(--vp-c-text-2);">2026-04-13</span>
   </div>
   <h4 style="color:var(--vp-c-brand-1); margin:0 0 12px 0; font-size:18px;">大模型应用落地避坑指南</h4>
-  <p style="color:var(--vp-c-text-1); line-height:1.6; margin:0 0 16px; font-size:14px;">企业落地 AI 最常见的 7 大错误，以及如何避免。从成本、性能、安全、监控多维度分析。</p>
-  <a href="/blog/llm-pitfalls" style="color:var(--vp-c-brand-1); text-decoration:none; font-weight:600;">阅读全文 →</a>
+  <p style="color:var(--vp-c-text-1); line-height:1.6; margin:0 0 16px; font-size:14px;">企业落地 AI 最常见的 7 大错误，以及如何避免。从成本、性能、安全、监控等多维度分析。</p>
+  <a href="/AI/blog/llm-pitfalls" style="color:var(--vp-c-brand-1); text-decoration:none; font-weight:600;">阅读全文 →</a>
 </div>
 
 </div>

@@ -36,7 +36,7 @@ layout: doc
   <!-- 项目4 -->
   <div style="border: 1px solid var(--vp-c-divider); border-radius: 12px; padding: 24px; background: var(--vp-c-bg);">
     <h4 style="color: var(--vp-c-brand-1); margin-top: 0;">企业级数据分析平台</h4>
-    <p style="color: var(--vp-c-text-1); line-height: 1.6; margin: 8px 0 16px;">零代码操作，支持多源数据接入、交互式可视化、AI 辅助分析</p>
+    <p style="color: var(--vp-c-text-1); line-height: 1.6; margin: 8px 0 16px;">零代码操作，支持多源数据接入、交互式可视化、AI 辅助分析等</p>
     <a href="/AI/projects/data-analysis" style="color: var(--vp-c-brand-1); text-decoration: none; font-weight: 600;">查看详情 →</a>
   </div>
 
