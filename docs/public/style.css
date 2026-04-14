@@ -34,12 +34,15 @@
   max-width:900px!important;
 }
 .VPHero .image {
-  border-radius: 0 !important;        /* 去掉圆形 */
-  border: none !important;             /* 去掉边框 */
-  box-shadow: none !important;         /* 去掉阴影 */
-  animation: none !important;          /* 去掉浮动动画 */
-  width: 130px !important;             /* 头像大小（可自己改） */
-  height: 130px !important;
+  border-radius: 50% !important;        /* 核心：圆形遮罩 */
+  border: 3px solid var(--vp-c-brand-1) !important; /* 品牌色边框（可选，不想要就删） */
+  box-shadow: 0 0 20px rgba(59,130,246,0.25) !important; /* 阴影（可选，不想要就删） */
+  animation: none !important;
+  width: 180px !important;
+  height: 180px !important;
+  object-fit: cover !important;          /* 防止图片变形 */
+  align-self: center !important;         /* 垂直居中，和文字对齐 */
+  margin-top: 20px !important;           /* 微调下移，完美匹配 */
 }
 
 .VPFeature {
