@@ -34,27 +34,28 @@
   max-width:900px!important;
 }
 
-/* ✅ 终极修复：容器只负责定位，禁止裁切 */
+/* ✅ 最终完美版：正圆填充 + 完整显示 + 垂直居中对齐 */
 .VPHero .image {
-  border-radius: 0 !important;   /* 清除容器圆形 */
-  border: none !important;      /* 清除边框 */
-  box-shadow: none !important;  /* 清除阴影 */
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
   animation: none !important;
-  width: 180px !important;      /* 容器宽高一致，保证正圆空间 */
-  height: 180px !important;
-  align-self: center !important; /* 垂直居中对齐 */
-  margin-top: 20px !important;   /* 精准下移位置 */
-  overflow: visible !important;  /* 关键：禁止隐藏溢出，保证完整显示 */
+  width: 280px !important;  /* 容器大小，匹配截图视觉比例 */
+  height: 280px !important;
+  align-self: center !important;  /* 核心：和左侧文字垂直居中 */
+  margin-top: 0 !important;        /* 取消上移，完美对齐 */
+  overflow: hidden !important;     /* 容器裁切，保证圆形 */
 }
 
-/* 核心：给img本身加圆形边框+阴影，保持原图完整比例 */
+/* 核心：图片正圆填充，完整显示，无变形 */
 .VPHero .image img {
-  border-radius: 50% !important;   /* 正圆裁切 */
+  border-radius: 50% !important;
   border: 3px solid var(--vp-c-brand-1) !important;
-  box-shadow: 0 0 20px rgba(59,130,246,0.25) !important;
+  box-shadow: 0 0 25px rgba(59,130,246,0.3) !important;
   width: 100% !important;
   height: 100% !important;
-  object-fit: contain !important;  /* 关键：保持图片完整，不拉伸不裁切 */
+  object-fit: cover !important;    /* 核心：填充整个圆形，无空白 */
+  object-position: center !important; /* 核心：居中显示，不裁切人脸 */
   animation: none !important;
 }
 
