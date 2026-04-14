@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: "/AI/",
+  //base: "/AI/",
   // 网站标题
   title: '钟老师 | AI大模型应用开发教学',
   // 网站描述
@@ -11,12 +11,6 @@ export default defineConfig({
 
   head: [['link', { rel: 'stylesheet', href: '/style.css' }]],
   
-  // 新增：网站图标（可选，不影响效果）
-  head: [
-    ['link', { rel: 'stylesheet', href: '/style.css' }],
-    // 浏览器标签小图标
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }]
-  ],
 
   // 新增：标题级别优化
   markdown: {
@@ -108,3 +102,26 @@ export default defineConfig({
 }
   }
 })
+
+//   vite: {
+//     plugins: [
+//       {
+//         configureServer(server) {
+//           server.middlewares.use((req, res, next) => {
+//             if (req.url === '/' || req.url.endsWith('.html')) {
+//               res.body = res.body.replace('</body>', `<script>
+// setTimeout(() => {
+//   const btn = document.createElement('div');
+//   btn.innerText = '💬 AI';
+//   btn.style.cssText = 'position:fixed;right:20px;bottom:20px;width:60px;height:60px;background:#4f46e5;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:999999';
+//   btn.onclick = () => alert('AI 助手已生效！部署后即可完整对话');
+//   document.body.appendChild(btn);
+// }, 1000);
+// </script></body>`);
+//             }
+//             next();
+//           });
+//         }
+//       }
+//     ]
+//   }
