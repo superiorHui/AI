@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as r}from"./chunks/framework.Czhw_PXq.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"course.md","filePath":"course.md"}'),o={name:"course.md"};function a(s,c,n,p,_,d){return t(),r("div")}const f=e(o,[["render",a]]);export{m as __pageData,f as default};
