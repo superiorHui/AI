@@ -4,7 +4,7 @@ const isProduction = process.env.NODE_ENV === 'production'
 export default defineConfig({
   // 关键配置：生产环境使用 /AI/ 作为基础路径，本地为空
   //base: isProduction ? '/AI/' : '/',
-  base: '/AI/',
+  //base: '/AI/',
 
   // 网站标题
   title: '钟老师 | AI大模型应用开发教学',
