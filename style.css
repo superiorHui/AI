@@ -34,14 +34,14 @@
   max-width:900px!important;
 }
 .VPHero .image {
-  border-radius:50%!important;
-  border:3px solid var(--vp-c-brand-1)!important;
-  box-shadow:0 0 30px rgba(59,130,246,0.25)!important;
-  animation:float 3s infinite ease-in-out;
+  border-radius: 0 !important;        /* 去掉圆形 */
+  border: none !important;             /* 去掉边框 */
+  box-shadow: none !important;         /* 去掉阴影 */
+  animation: none !important;          /* 去掉浮动动画 */
+  width: 130px !important;             /* 头像大小（可自己改） */
+  height: 130px !important;
 }
-@keyframes float {
-  0%,100%{transform:translateY(0);}50%{transform:translateY(-10px);}
-}
+
 .VPFeature {
   border-radius:16px!important;
   transition:all 0.3s ease!important;
