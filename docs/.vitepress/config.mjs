@@ -1,10 +1,11 @@
 import { defineConfig } from 'vitepress'
 // 检测是否为生产环境（部署到GitHub Pages）
-const isProduction = process.env.NODE_ENV === 'production'
+//const isProduction = process.env.NODE_ENV === 'production'
 export default defineConfig({
   // 关键配置：生产环境使用 /AI/ 作为基础路径，本地为空
   //base: isProduction ? '/AI/' : '/',
   //base: '/AI/',
+  base: '/',
 
   // 网站标题
   title: '钟老师 | AI大模型应用开发教学',
@@ -13,7 +14,7 @@ export default defineConfig({
 
   appearance: 'dark',
 
-  head: [['link', { rel: 'stylesheet', href: 'style.css' }]],
+  head: [['link', { rel: 'stylesheet', href: '/style.css' }]],
   
 
   // 新增：标题级别优化
@@ -89,7 +90,7 @@ export default defineConfig({
         <h4 style="margin: 0 0 8px 0; color: #3b82f6;">微信咨询</h4>
         <p style="margin: 0; font-size: 14px;">扫描二维码添加好友</p>
        
-        <img src="/AI/wechat.png" alt="微信二维码" style="width: 100px; margin-top: 8px; border-radius: 8px;">
+        <img src="/wechat.png" alt="微信二维码" style="width: 100px; margin-top: 8px; border-radius: 8px;">
       </div>
       <div style="text-align: center;">
         <h4 style="margin: 0 0 8px 0; color: #3b82f6;">联系方式</h4>

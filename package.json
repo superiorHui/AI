@@ -8,7 +8,7 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "build": "vitepress build docs --base /AI/",
+    "build": "vitepress build docs",
 	  "deploy": "npm run docs:build && gh-pages -d docs/.vitepress/dist"
   },
   "keywords": [],
