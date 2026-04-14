@@ -52,6 +52,7 @@
 
 ## 📚 技术输出与开源贡献
 - 个人技术主页：<a href="https://me.aijiuming.com" target="_blank" style="color: var(--vp-c-brand-1);">me.aijiuming.com</a>，持续分享AI开发、微服务、数据分析等技术干货；
+- B站技术频道：<a href="https://space.bilibili.com/476271437" target="_blank" style="color: var(--vp-c-brand-1);">钟老师 | AI全栈实战</a>，定期更新实战教程、项目演示与技术干货视频；
 - GitHub开源：<a href="https://github.com/superiorHui" target="_blank" style="color: var(--vp-c-brand-1);">superiorHui</a>，开源多个实战项目（含AIPulse、AI技术实践案例），提供完整源码与部署教程；
 - 技术博客：在个人网站持续更新企业级项目实战、技术避坑指南、前沿技术解析，内容覆盖LangChain、RAG、Agent、微服务等核心领域。
 
@@ -59,6 +60,8 @@
 如果您有 **技术咨询、课程报名、企业项目合作、技术内训** 等需求，欢迎通过以下方式联系我：
 - 邮箱：<a href="mailto:zhongchaohui888@gmail.com" style="color: var(--vp-c-brand-1);">zhongchaohui888@gmail.com</a>
 - GitHub：<a href="https://github.com/superiorHui" target="_blank" style="color: var(--vp-c-brand-1);">superiorHui</a>
-- 个人官网：<a href="https://me.aijiuming.com" target="_blank" style="color: var(--vp-c-brand-1);">me.aijiuming.com</a>
+- B站：<a href="https://space.bilibili.com/476271437" target="_blank" style="color: var(--vp-c-brand-1);">钟老师 | AI全栈实战</a>
+- 个人官网：<a href="https://aijiuming.com" target="_blank" style="color: var(--vp-c-brand-1);">aijiuming.com</a>
 
 我会在24小时内回复您的咨询，期待与您一起探讨技术、落地项目、共同成长！
+
