@@ -1,11 +1,11 @@
 /* 侧边栏美化 */
-.VPSidebar {
+/* .VPSidebar {
   border-radius: 0 12px 12px 0 !important;
   box-shadow: 0 0 20px rgba(0,0,0,0.1) !important;
   padding: 20px 10px !important;
-}
+} */
 /* 侧边栏菜单项悬浮效果 */
-.VPSidebar .item {
+/* .VPSidebar .item {
   border-radius: 8px !important;
   margin: 4px 0 !important;
   transition: all 0.3s ease !important;
@@ -13,7 +13,7 @@
 .VPSidebar .item:hover {
   background: var(--vp-c-brand-soft) !important;
   transform: translateX(4px) !important;
-}
+} */
 /* 高亮当前菜单 */
 .VPSidebar .item.active {
   background: var(--vp-c-brand-1) !important;
